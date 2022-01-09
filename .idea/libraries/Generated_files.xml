@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/src/interfaces/SpiderOptions.js" />
+        <item url="file://$PROJECT_DIR$/src/ts/Spider.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/interfaces/SpiderOptions.js" />
+      <root url="file://$PROJECT_DIR$/src/ts/Spider.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

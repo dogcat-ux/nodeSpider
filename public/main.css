@@ -1,0 +1,18 @@
+ody,
+html {
+  margin: 0 auto;
+}
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-color: seashell;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  width: 60vw;
+  height: 50vh;
+}
