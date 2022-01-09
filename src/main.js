@@ -1,8 +1,10 @@
 const Spider = require("./ts/Spider.js");
 const bodyParser = require('koa-bodyparser');
 const Koa = require('koa');
+const KoaStatic = require('koa-static');
 const app = new Koa();
 app.use(bodyParser());
+app.use(KoaStatic(path.join(__dirname, 'public')));
 app.use(async (ctx, next) => {
   if (ctx.request.path === '/imgSpider') {
     console.log("ctx.request.body", ctx.request.body)
