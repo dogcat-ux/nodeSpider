@@ -17,7 +17,7 @@
       "user": "huangqiaoli",
       "host": ["1.15.234.66"],
       "ref": "origin/master",
-      "repo": "git@github.com:dogcat-ux/nodeSpider.git",
+      "repo": "https://github.com/dogcat-ux/nodeSpider.git",
       "path": "/usr/local/www",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production && tsc src/ts/Spider.ts && pm2 start ./src/main.js",
