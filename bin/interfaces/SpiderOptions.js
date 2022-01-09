@@ -1,3 +1,8 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+// export default interface SpiderOptions{
+//   url:string,
+//   method?:string,
+//   headers?:object,
+//   host?:string
+// }
 //# sourceMappingURL=SpiderOptions.js.map

@@ -1,9 +1,16 @@
-import SpiderOptions from "../interfaces/SpiderOptions";
+// import SpiderOptions from "../interfaces/SpiderOptions";
 
 const http = require("http");
 const https = require("https");
 const cheerio = require('cheerio');
 const download = require('download');
+interface SpiderOptions{
+  url:string,
+  method?:string,
+  headers?:object,
+  host?:string
+}
+
 module.exports = class Spider {
   m_options: SpiderOptions;
 

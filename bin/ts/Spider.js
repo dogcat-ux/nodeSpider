@@ -1,4 +1,5 @@
 "use strict";
+// import SpiderOptions from "../interfaces/SpiderOptions";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,7 +11,6 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-Object.defineProperty(exports, "__esModule", { value: true });
 var http = require("http");
 var https = require("https");
 var cheerio = require('cheerio');
